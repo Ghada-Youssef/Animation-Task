@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(237, 237, 245);
+}
+.div1{
+    width: 150px;
+    height:75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 20px;
+    left: 0;
+}
+@keyframes move1{
+    0%{
+        left:0px;
+    }
+    100%{
+        left:1210px;
+    }
+}
+.div2{
+    width: 150px;
+    height:75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 180px;
+    left: 0;
+}
+@keyframes move1{
+    0%{
+        left:0px;
+    }
+    100%{
+        left:1210px;
+    }
+}
+.div3{
+    width: 150px;
+    height:75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 340px;
+    left: 0;
+}
+@keyframes move1{
+    0%{
+        left:0px;
+    }
+    100%{
+        left:1210px;
+    }
+}
+.div4{
+    width: 150px;
+    height:75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 500px;
+    left: 0;
+}
+@keyframes move1{
+    0%{
+        left:0px;
+    }
+    100%{
+        left:1210px;
+    }
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.div5{
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top:95px;
+    left:1210px;
+    animation-delay: 3s;
+}
+@keyframes move1{
+    0%{
+        left:1210px;
+    }
+    100%{
+        left: 0;
+    }
+}
+.div6{
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 260px;
+    left:1210px;
+}
+@keyframes move1{
+    0%{
+        left:1210px;
+    }
+    100%{
+        left: 0;
+    }
+}
+.div7{
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 430px;
+    left:1210px;
+}
+@keyframes move1{
+    0%{
+        left:1210px;
+    }
+    100%{
+        left: 0;
+    }
+}
+.div8{
+    width: 150px;
+    height: 75px;
+    position: absolute;
+    animation-name: move1;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    top: 580px;
+    left:1210px;
+}
+@keyframes move1{
+    0%{
+        left:1210px;
+    }
+    100%{
+        left: 0;
+    }
+}
